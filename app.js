@@ -18,7 +18,7 @@ $(".frogButton").on("click", function(){
     console.log("click is going trhough")
     randomNumber = Math.floor(Math.random() * frogArray.length)
     var newDiv = $("div")
-    newDiv.prepend("<br><img src = '" + frogArray[randomNumber] + "'>")
+    newDiv.html("<br><img src = '" + frogArray[randomNumber] + "'>")
 
 })
 //make array with diff images

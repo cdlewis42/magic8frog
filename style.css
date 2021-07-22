@@ -20,3 +20,17 @@ body{
     height:500px;
     width:500px;
 }
+.frogSayings{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;font-size:20px;
+    background-color:#ff99ff;
+    box-shadow: 10px 10px 5px #b300b3;
+    color:#ffffff;
+    border-radius: 25px;
+}
